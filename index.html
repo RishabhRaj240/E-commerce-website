@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Red-Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+              <img
+                src="https://i.ibb.co/j3FNGj7/logo-white.png"
+                alt="RedStore"
+                width="150px"
+              />
+            </a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="product.html">Products</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="account.html">Account</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html"
+            ><img
+              src="https://i.ibb.co/PNjjx3y/cart.png"
+              alt=""
+              width="30px"
+              height="30px"
+          /></a>
+          <img
+            src="https://i.ibb.co/6XbqwjD/menu.png"
+            alt=""
+            class="menu-icon"
+            onclick="menutoggle()"
+          />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Be a Soccer <br />
+              Champion!
+            </h1>
+            <p>
+              Success isn't always about greatness. It's about consistency.
+              Consistent <br />hard work gains success. Greatness will come.
+            </p>
+            <a href="#" target="_blank" rel="noopenernoreferrer" class="btn"
+              >Explore Now &#8594;
+            </a>
+          </div>
+          <div class="col-2">
+            <img src="image1.jpg" alt="Playing Football" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured categories-->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img
+              src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/658701/03/fnd/IND/fmt/png/teamRISE-Men's-Logo-Football-Jersey"
+              alt=""
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/658328/03/mod01/fnd/IND/fmt/png/Neymar-Jr.-Creativity-Men's-Football-Shorts"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured products -->
+    <div class="small-container">
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img
+            src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/771818/02/mod01/fnd/IND/fmt/png/Borussia-Dortmund-Football-Men's-Training-Jersey"
+            alt=""
+          />
+          <h4>Mens's Training Jersey</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$18.50</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/658289/50/mod01/fnd/IND/fmt/png/individualCUP-Men's-Football-Jersey"
+            alt=""
+          />
+          <h4>Mens's Football Jersey</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$21.50</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/659013/10/mod01/fnd/IND/fmt/png/IndividualBLAZE-Women's-Football-Jersey"
+            alt=""
+          />
+          <h4>Women's Football Jersey</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$19.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/770606/01/mod01/fnd/IND/fmt/png/Borussia-Dortmund-23/24-Women's-Football-Home-Jersey"
+            alt=""
+          />
+          <h4>Women's Football Jersey</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$18.00</p>
+        </div>
+      </div>
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img
+            src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/770636/01/mod01/fnd/IND/fmt/png/Borussia-Dortmund-Men's-Football-Shorts"
+            alt=""
+          />
+          <h4>Men's Football Shorts</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$10.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/659019/56/mod01/fnd/IND/fmt/png/individualFINAL-Men's-Football-Shorts"
+            alt=""
+          />
+          <h4>Men's Football Shorts</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$12.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/658303/04/mod01/fnd/IND/fmt/png/individualBLAZE-Women's-Football-Shorts"
+            alt=""
+          />
+          <h4>Women's Football Shorts</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$14.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/659007/10/mod01/fnd/IND/fmt/png/IndividualBLAZE-Women's-Football-Shorts"
+            alt=""
+          />
+          <h4>Women's Football Shorts</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$15.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/107480/02/sv01/fnd/IND/fmt/png/ATTACANTO-FG/AG-Youth-Football-Boots"
+            alt=""
+          />
+          <h4>Men's Youth Football Boots</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$45.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/107480/03/sv01/fnd/IND/fmt/png/ATTACANTO-FG/AG-Youth-Football-Boots"
+            alt=""
+          />
+          <h4>Men's Youth Football Boots</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/107701/01/sv01/fnd/IND/fmt/png/FUTURE-7-ULTIMATE-FG/AG-Women's-Football-Boots"
+            alt=""
+          />
+          <h4>Women's Football Boots</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$55.00</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/107716/01/sv01/fnd/IND/fmt/png/FUTURE-7-MATCH-FG/AG-Women's-Football-Boots"
+            alt=""
+          />
+          <h4>Women's Football Boots</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$60.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- offer -->
+    <div class="offer">
+      <h2 class="title">Offer</h2>
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img
+              src="https://www.apple.com/in/apple-watch-ultra-2/images/overview/design/design_brighter_light__fw79yoz4yyaa_large.jpg"
+              alt=""
+              class="offer-img"
+            />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available on RedStore</p>
+            <h1>Apple Watch Ultra 2</h1>
+            <small
+              >Apple Watch Ultra 2 is crafted for unparalleled performance. The
+              lightweight titanium case is rugged and corrosion resistant, and
+              it’s raised to protect the sapphire crystal from edge
+              impacts.</small
+            >
+            <br />
+            <a href="#" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial -->
+    <div class="testimonial">
+      <h2 class="title">Reviews</h2>
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              I really liked Women's Football Jersey and Women' Football Shorts.
+              The fitting were very nice and it is very comfortable to wear.
+              Nice purchasing from Red Store.
+            </p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <img src="https://i.ibb.co/zfXD2Tx/user-1.png" alt="" />
+            <h3>Marta W.</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              Ordered Apple Watch Ultra 2 coples of weeks ago from Red Store.
+              The product they sells are genuine and authorized from apple.
+              Delivery of the product is also fast.
+            </p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <img src="https://i.ibb.co/FVyK1KM/user-2.png" alt="" />
+            <h3>Rula P.</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              Purchased Women's Football Boots, Women's Football Home Jersey and
+              Women's Football Shorts from Red Store their is quality is very
+              nice and good.
+            </p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <img src="https://i.ibb.co/jZ3tQqK/user-3.png" alt="" />
+            <h3>Vika Z.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- brands -->
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img
+              src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAK4AuQMBIgACEQEDEQH/xAAbAAEAAwEBAQEAAAAAAAAAAAAABgcIAwUEAf/EADgQAAEDAwEGAwQHCQAAAAAAAAABAgMEBREGBxIhMUFREyJhFHGBoQgyM0JikZIWIyRScrHB0fD/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Ao0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHr6X05ctU3ZlstETXzuar3K9261jUxlyr24oX2mxDTaU7k3qhZ1ofAR2+u6k2Ptsd8/dzj0AzaCyr5sT1VbY3S0fstyYnHdp5N1/6XInyVSuqqmno6h9PVwSQTxrh8UrFa5q9lReKAcgAAAAAA9XTOn7hqa8Q2u1Rb88vFXLwbG1ObnL0RP9JzVAPKBpuybIdJWWzypeIUr5fCVairqHqxGJjirURfKid+fqZpqkhbUypTOc6BHqkbnc1bngq+uAOQAAAAAAAAAAAAAAALZ2Eaq0/YquoortFHTVtW/EVxkVN1G4T925V+qmUznkuePJC+bZfrRdpZYrXdKOskh+0bTzterffhSltnOzLTlXpGPUuqap0kMrXSbiTeHFCxqqnmVOKrw7pjkWVo7RWk7NVpetMMRfGhWNssdU6WNzVVFXGVXsgEwI7q/Rdk1dSLFdaVPGamIqqPyyx+5eqei5QkR+Ncjmo5qoqLxRU6gZM19s+u2i6rNQ1am3yLiGsjb5V9HJ913p16KpEDbldR01wo5aSugjnp5m7skcjctchnHadsprNNvludkZJVWfi5zU4yUydnd2/i6de6hWIAAF+aIktmy7Z5Hf7xG59yu2Hxwsx4j24yxiZ5JjzKvTPVcIVRs80vNq3VFJb2sctK1ySVb05MiRePHuvJPVT79rWpv2k1fUezvRbfQ/w1I1v1d1vNye9c8e2OwHPWW0jUOrVfDVVPs1A5eFHT+VmOm8vN3x4eiEPAAAAAAAAAAAAAAAAAA9GC/XantM9pguFQy3zrmSmR67juvL/snSxajvOnpllstyqKRVXLmxu8rve1eC/FDygBMLttP1jdqB9FV3hyQSN3ZEhiZGr09VaiL8EJFsq2pyaa3LTfnSTWlVxFKnmfTe5OrfTp07FWgDbNtuNFdaRlXbaqGqp3p5ZIno5FPq5oYott1uNpmWa111TRyLzdTyuYq+/C8STw7VNbwtRrL9KqJ/PDE9fzVqgXbq3ZBpvUEj6mmY611jsqslKibjl7uZy/LBCo/o/VPtCJJqGHwM8XNpV3se7ex8zts62z1dVcoLXqxInNnckcddG3cVrl4JvtThhV6pjHzS8gKZ1VdtO7LNM1On9Mqkl7q2bssu8jpGZTG/IvRURfK31zjvQRcP0itOw0V2ob5SxIxK1HRVG6mEWRuMOX1VFX9JTwAAAAAAAAAAAAAAAAAAAAAAAAAAADWmyvUrdT6Noql8u/WU7Up6rK8d9qY3l/qTC/EyWSzZxrSp0VfEqmNdLRTojKuBF4vb0VPxJlcfFOoF0fSHp2zaEilXnBXRuT4tc3/Jms1Zrm3RbQdnsqWGpjn8Zrailci4SRzVzurnkq8U48l5mWq6jqbfWS0ldBJBUQu3ZIpG4c1fVAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAACz9gF1rYNaMtkdU9tFVRSOkgzlrnNblFx0XhzQ7fSFsc1FqyK8cFp7jEiIvVHxojVRfhu/PsV/pa9z6b1BQ3ilYj5KWTe3HLhHtVFRzc9Moqpn1JZtc1xbtbVFqmtsNVClNE9JWVDWphzlTlhVzy/sBXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z"
+              alt=""
+            />
+          </div>
+
+          <div class="col-5">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt=""
+            />
+          </div>
+
+          <div class="col-5">
+            <img
+              src="data:image/png;base64,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"
+              alt=""
+            />
+          </div>
+
+          <div class="col-5">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Reebok_2019_logo.svg/2560px-Reebok_2019_logo.svg.png"
+              alt=""
+            />
+          </div>
+
+          <div class="col-5">
+            <img
+              src="https://seeklogo.com/images/H/hrx-logo-0BCB89CB63-seeklogo.com.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="https://i.ibb.co/KbPTYYQ/play-store.png" alt="" />
+              <img src="https://i.ibb.co/hVM4X2p/app-store.png" alt="" />
+            </div>
+          </div>
+
+          <div class="footer-col-2">
+            <img src="https://i.ibb.co/j3FNGj7/logo-white.png" alt="" />
+            <p>
+              Our Purpose Is To Sustainably Make the Pleasure and Benefits of
+              Sports Accessible to the Many.
+            </p>
+          </div>
+
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright &copy; 2021 - Red Store</p>
+      </div>
+    </div>
+
+    <!-- js for toggle menu -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
