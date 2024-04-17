@@ -1,8 +1,6 @@
 # E-commerce-website taken inspiration for RedStore website and redesigned it by myself.
 
-It took few hours to completely redesign this website.
-I learned few animations while making this website.
-If you have knowledge of flexbox and css grid you can make websites like this easily.
+It took few hours to completely redesign this website. I learned few animations while making this website. If you have knowledge of css grid and flexbox you can make it easily.
 
 ![Screenshot (178)](https://github.com/RishabhRaj240/E-commerce-website/assets/155876855/e5e1f85c-1fe5-487a-9e84-2e538fd9c51e)
 ![Screenshot (179)](https://github.com/RishabhRaj240/E-commerce-website/assets/155876855/589cc35b-0101-4d9c-89d3-53a2eec5818b)
